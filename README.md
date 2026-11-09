@@ -1,16 +1,79 @@
-# React + Vite
+# 4Xabuoya Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
+4Xabuoya is a food-delivery e-commerce application that allows customers to browse food products and interact with an online ordering system. This repository contains the React frontend.
 
-Currently, two official plugins are available:
+## Group Information
+**Group Name:** 4Xabuoya
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+| Member | GitHub Username |
+|---|---|
+| Member 1 | cake1icious |
+| Member 2 | hannahpariscal |
+| Member 3 | lilhoeyen |
+| Member 4 | n_zela |
+| Member 5 | [Add missing username] |
+| Repository Owner | Xabuo |
 
-## React Compiler
+## Technologies Used
+- React
+- Vite
+- JavaScript
+- Material UI
+- Axios
+- React Router
+- Lucide React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Requirements
+- Node.js
+- npm
+- Git
 
-## Expanding the ESLint configuration
+## Installation and Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Xabuo/4Xabuoya-frontend.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd 4Xabuoya-frontend
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal, usually:
+
+   ```text
+   http://localhost:5173
+   ```
+
+## Backend Connection
+
+The frontend connects to the Laravel REST API backend.
+
+**Backend Repository:** https://github.com/Xabuo/4Xabuoya-backend
+
+**Local API Base URL:**
+
+```text
+http://127.0.0.1:8000/api
+```
+
+Make sure the Laravel backend and database are running.
+
+## Main Features
+- Customer registration and login
